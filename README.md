@@ -1,3 +1,3 @@
-# SRTPluginProviderRE8
-A provider plugin of Resident Evil 8 (2021) for the SRT Host to provide memory values to other plugins.
-"# SRTPluginProviderRE8" 
+# SRTPluginProviderDMC4SE
+A provider plugin of Devil May Cry 4 Special Edition for the SRT Host to provide memory values to other plugins.
+"# SRTPluginProviderDMC4SE" 
