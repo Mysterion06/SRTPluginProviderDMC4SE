@@ -5,6 +5,9 @@ namespace SRTPluginProviderDMC4SE
 {
     public interface IGameMemoryDMC4SE
     {
+        // Gamename
+        string GameName { get; }
+        
         // Player HP
         float PlayerHP { get; set; }
 
