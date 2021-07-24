@@ -9,6 +9,8 @@ namespace SRTPluginProviderDMC4SE
 {
     public class GameMemoryDMC4SE : IGameMemoryDMC4SE
     {   
+        // Gamename
+        public string GameName => "DMC4SE";
         // Player HP
         public float PlayerHP { get => _playerHP; set => _playerHP = value;  }
         internal float _playerHP;
