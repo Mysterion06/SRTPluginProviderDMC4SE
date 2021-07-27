@@ -73,9 +73,15 @@ namespace SRTPluginProviderDMC4SE
                 pointerAddressMainBase = 0xF59F00;
                 pointerAddressEnemyHP = 0xF59F0C;
             }
-            else
+            else if (gv == GameVersion.DevilMayCry4SpecialEditionWW_20210727_1)
             {
                 gameMemoryValues._gameInfo = "Latest Release";
+                pointerAddressMainBase = 0xEDEEC4;
+                pointerAddressEnemyHP = 0xEEEED4;
+            }
+            else
+            {
+                gameMemoryValues._gameInfo = "Unknown Release May Not Work. Contact Developers";
                 pointerAddressMainBase = 0xEDEEC4;
                 pointerAddressEnemyHP = 0xEEEED4;
             }

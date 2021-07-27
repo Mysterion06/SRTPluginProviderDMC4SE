@@ -12,6 +12,7 @@ namespace SRTPluginProviderDMC4SE
         // Player
         GamePlayer Player { get; set; }
         GameStats Stats { get; set; }
+        EnemyHP[] EnemyHealth { get; set; }
 
         // Versioninfo
         string VersionInfo { get; }
