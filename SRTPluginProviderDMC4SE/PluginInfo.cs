@@ -9,9 +9,9 @@ namespace SRTPluginProviderDMC4SE
 
         public string Description => "A game memory provider plugin for Devil May Cry 4 Special Edition.";
 
-        public string Author => "Mysterion_06_ (Pointers & Coding) & Squirrelies (Provider of the SRTHost)";
+        public string Author => "Mysterion_06_ (Pointers & Coding) & Squirrelies (Provider of the SRTHost) & VideoGameRoulette (Optimized and Structured Code)";
 
-        public Uri MoreInfoURL => new Uri("https://github.com/ResidentEvilSpeedrunning/SRTPluginProviderRE1C");
+        public Uri MoreInfoURL => new Uri("https://github.com/SpeedrunTooling/SRTPluginProviderDMC4SE");
 
         public int VersionMajor => assemblyFileVersion.ProductMajorPart;
 
